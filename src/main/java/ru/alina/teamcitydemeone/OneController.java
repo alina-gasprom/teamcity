@@ -10,6 +10,6 @@ public class OneController {
 
     @GetMapping("/")
     public ResponseEntity<?> getOne() {
-        return new ResponseEntity<>("ONE", HttpStatus.OK);
+        return new ResponseEntity<>("YOU ARE NUMBER ONE", HttpStatus.OK);
     }
 }
